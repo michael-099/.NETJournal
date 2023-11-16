@@ -1,37 +1,41 @@
 using System;
 namespace Student;
-    class Student_Management_System{
-   
-   static void Main(string[] args) {
-    string name;
-    int subject ;
-    int sum =0;
-    string subj="";
-    int res =0;
-    Dictionary<string,int> result = new Dictionary<string, int>();
+class Student_Management_System
+{
 
-    Console.WriteLine("Hey , What is your name ");
-    name=Console.ReadLine();
-    Console.WriteLine("nice to meet you " +name);
-    Console.WriteLine(" i am here to help you calculating your average How many subject did you take ");
-    subject=int.Parse (Console.ReadLine());
-    for(int i=0 ; i<subject; i++) {
-        
-        Console.WriteLine("enter subject name ");
-        subj=Console.ReadLine();
-        Console.WriteLine($"enter subject {i+1} result");
-        res=int.Parse( Console.ReadLine());
-        sum=sum+res;
-        result.Add(subj,res);
-    }
-         Console.WriteLine("------your results---------");
-        foreach(var x in result) {
+    static void Main(string[] args)
+    {git 
+        string name;
+        int subject;
+        int sum = 0;
+        string subj = "";
+        int res = 0;
+        Dictionary<string, int> result = new Dictionary<string, int>();
+        Console.WriteLine("Hey , What is your name ");
+        name = Console.ReadLine();
+        Console.WriteLine("Nice to meet you " + name);
+        Console.WriteLine(" I am here to help you calculating your average How many subject did you take ");
+        subject = int.Parse(Console.ReadLine());
+        for (int i = 0; i < subject; i++)
+        {
+
+            Console.WriteLine("Enter name of subject {i+1} ");
+            subj = Console.ReadLine();
+            Console.WriteLine($"enter subject {i + 1} result");
+            res = int.Parse(Console.ReadLine());
+            sum = sum + res;
+            result.Add(subj, res);
+        }
+        Console.WriteLine("------Your results---------");
+        foreach (var x in result)
+        {
             Console.WriteLine($"   {x.Key}.................{x.Value}");
-    }  
-    float average= sum/subject;
-    Console.WriteLine($"your average is {average}");
- 
-}}
+        }
+        float average = sum / subject;
+        Console.WriteLine($"Your average is {average}");
+
+    }
+}
 
 //  Fundamentals of C# Tasks
 // Task: Student Grade Calculator

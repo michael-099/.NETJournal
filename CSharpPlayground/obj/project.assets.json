@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\app\\app.csproj",
-      "projectName": "app",
-      "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\app\\app.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\CSharpPlayground.csproj",
+      "projectName": "CSharpPlayground",
+      "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\CSharpPlayground.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\app\\obj\\",
+      "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"

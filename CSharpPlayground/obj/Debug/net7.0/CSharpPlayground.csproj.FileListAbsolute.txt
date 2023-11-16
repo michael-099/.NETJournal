@@ -1,0 +1,14 @@
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\bin\Debug\net7.0\CSharpPlayground.exe
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\bin\Debug\net7.0\CSharpPlayground.deps.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\bin\Debug\net7.0\CSharpPlayground.runtimeconfig.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\bin\Debug\net7.0\CSharpPlayground.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\bin\Debug\net7.0\CSharpPlayground.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\CSharpPlayground.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\CSharpPlayground.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\CSharpPlayground.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\CSharpPlayground.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\CSharpPlayground.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\refint\CSharpPlayground.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\CSharpPlayground.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\CSharpPlayground.genruntimeconfig.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharpPlayground\obj\Debug\net7.0\ref\CSharpPlayground.dll
