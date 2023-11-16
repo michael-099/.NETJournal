@@ -1,5 +1,5 @@
 using System;
-namespace Student{
+namespace Student;
     class Student_Management_System{
    
    static void Main(string[] args) {
@@ -22,7 +22,7 @@ namespace Student{
 
 }  
 }
-}
+
 //  Fundamentals of C# Tasks
 // Task: Student Grade Calculator
 // Create a C# console application that allows students to calculate their average grade based on different subjects.
