@@ -24,8 +24,9 @@ namespace Student;
         sum=sum+res;
         result.Add(subj,res);
     }
+         Console.WriteLine("------your results---------");
         foreach(var x in result) {
-            Console.WriteLine($"{subj}:{res}");
+            Console.WriteLine($"{x.Key}.............................{x.Value}");
     }  
     float average= sum/subject;
     Console.WriteLine($"your average is {average}");
