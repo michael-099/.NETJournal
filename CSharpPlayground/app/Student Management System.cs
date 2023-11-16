@@ -6,22 +6,31 @@ namespace Student;
     string name;
     int subject ;
     int sum =0;
+    string subj="";
+    int res =0;
+    Dictionary<string,int> result = new Dictionary<string, int>();
+
     Console.WriteLine("Hey , What is your name ");
     name=Console.ReadLine();
     Console.WriteLine("nice to meet you " +name);
     Console.WriteLine(" i am here to help you calculating your average How many subject did you take ");
     subject=int.Parse (Console.ReadLine());
-    Console.WriteLine(subject);
     for(int i=0 ; i<subject; i++) {
         
-        Console.WriteLine($"enter subject {i+1}");
-        sum=sum+int.Parse( Console.ReadLine());
-}  
+        Console.WriteLine("enter subject name ");
+        subj=Console.ReadLine();
+        Console.WriteLine($"enter subject {i+1} result");
+        res=int.Parse( Console.ReadLine());
+        sum=sum+res;
+        result.Add(subj,res);
+    }
+        foreach(var x in result) {
+            Console.WriteLine($"{subj}:{res}");
+    }  
     float average= sum/subject;
     Console.WriteLine($"your average is {average}");
-
-}  
-}
+ 
+}}
 
 //  Fundamentals of C# Tasks
 // Task: Student Grade Calculator
