@@ -5,6 +5,7 @@ namespace Student{
    static void Main(string[] args) {
     string name;
     int subject ;
+    int sum =0;
     Console.WriteLine("Hey , What is your name ");
     name=Console.ReadLine();
     Console.WriteLine("nice to meet you " +name);
@@ -12,16 +13,17 @@ namespace Student{
     subject=int.Parse (Console.ReadLine());
     Console.WriteLine(subject);
     for(int i=0 ; i<subject; i++) {
-        int sum =0;
+        
         Console.WriteLine($"enter subject {i+1}");
-        sum=sum+int parse( Console.ReadLine());
+        sum=sum+int.Parse( Console.ReadLine());
 }  
     float average= sum/subject;
-    ConsoleWriteLine($"your average is {average}");
+    Console.WriteLine($"your average is {average}");
 
 }  
 }
-// Aug 1, 2023 Fundamentals of C# Tasks
+}
+//  Fundamentals of C# Tasks
 // Task: Student Grade Calculator
 // Create a C# console application that allows students to calculate their average grade based on different subjects.
 //  The application should prompt the student to enter their name and the number of subjects they have taken. For each subject,
