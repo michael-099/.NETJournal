@@ -1,32 +1,43 @@
 ﻿using System;
-namespace Grading;
- class Task{
-    string Title { get;set;}
-    string Description { get;set;}
-    string DueDate { get;set;}
-    string Status { get;set;}
+using namespace Grading;
+class Task
+{
+    string Title { get; set; }
+    string Description { get; set; }
+    string DueDate { get; set; }
+    string Status { get; set; }
 
 
-//     static void Main(string[] args){
-//   }
+    //     static void Main(string[] args){
+    //   }
 
- }
-class TaskManager{
-    void AddTask(List<Task> data,string title , string description,string dueDate, string status){
-        Task task = new Task();
-        task.Title = title;
-        task.Description = description;
-        task.DueDate = dueDate;
-        task.Status = status;
-        data.Add(task);
+}
+class TaskManager
+{
+    List<Task> task = new List<Task>();
+    void AddTask(string title, string description, string dueDate, string status)
+    {
+        Task newTask = new Task
+        {
+            Title = title,
+            Description = description,
+            DueDate = dueDate,
+            Status = status
+        };
+        task.Add(newTask);
+        Console.WriteLine("Added");
     }
 
 }
-
-void Main(){
-    List<Task> myTasks = new List<Task>();
-    myTasks.AddTask(myTasks,"aaa","aaa","aaa","aaa");
+class Program
+{
+    void Main()
+    {
+        List<Task> myTasks = new List<Task>();
+        myTasks.AddTask("aaa", "aaa", "aaa", "aaa");
+    }
 }
+
 // Grading System
 // Task Class Implementation (2 points):
 // [1 point] Task class is implemented with the required properties (Title, Description, Due date, Status).
