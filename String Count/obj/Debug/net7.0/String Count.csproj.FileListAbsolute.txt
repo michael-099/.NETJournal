@@ -1,0 +1,4 @@
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\String Count\obj\Debug\net7.0\String Count.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\String Count\obj\Debug\net7.0\String Count.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\String Count\obj\Debug\net7.0\String Count.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\String Count\obj\Debug\net7.0\String Count.csproj.CoreCompileInputs.cache
