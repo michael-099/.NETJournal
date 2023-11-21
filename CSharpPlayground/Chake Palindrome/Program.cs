@@ -1,4 +1,38 @@
-﻿
+﻿using System;
+namespace Palindrome;
+class PalindromeCheck
+{
+    public bool check(string str)
+    {
+        bool palindrome = true;
+        int start = 0;
+        int end = str.Length - 1;
+        while (end > start)
+        {
+            if (str[start] == str[end])
+            {
+                start = start + 1;
+                end = end - 1;
+            }
+            else
+            {
+                palindrome = false;
+                break;
+            }
+
+        }
+        return palindrome;
+    }
+}
+class program
+{
+    static void Main(string[] args)
+    {
+        string str = "abdcba";
+        PalindromeCheck palindromeCheck = new PalindromeCheck();
+        Console.WriteLine(palindromeCheck.check(str));
+    }
+}
 
 
 
