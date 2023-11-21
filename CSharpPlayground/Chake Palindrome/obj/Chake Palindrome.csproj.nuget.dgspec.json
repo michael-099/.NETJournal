@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\String Count\\String Count.csproj": {}
+    "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\String Count\\Chake Palindrome\\Chake Palindrome.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\String Count\\String Count.csproj": {
+    "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\String Count\\Chake Palindrome\\Chake Palindrome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\String Count\\String Count.csproj",
-        "projectName": "String Count",
-        "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\String Count\\String Count.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\String Count\\Chake Palindrome\\Chake Palindrome.csproj",
+        "projectName": "Chake Palindrome",
+        "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\String Count\\Chake Palindrome\\Chake Palindrome.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\String Count\\obj\\",
+        "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\String Count\\Chake Palindrome\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
