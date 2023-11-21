@@ -4,7 +4,7 @@ class Student_Management_System
 {
 
     static void Main(string[] args)
-    {git 
+    { 
         string name;
         int subject;
         int sum = 0;

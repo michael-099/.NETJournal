@@ -1,11 +1,11 @@
 ﻿using System;
-using namespace Grading;
+namespace Grading;
 class Task
 {
-    string Title { get; set; }
-    string Description { get; set; }
-    string DueDate { get; set; }
-    string Status { get; set; }
+    private string Title ;
+    private string Description ;
+    private string DueDate ;
+    private string Status ;
 
 
     //     static void Main(string[] args){
@@ -15,15 +15,13 @@ class Task
 class TaskManager
 {
     List<Task> task = new List<Task>();
-    void AddTask(string title, string description, string dueDate, string status)
+    public void AddTask(string title, string description, string dueDate, string status)
     {
-        Task newTask = new Task
-        {
-            Title = title,
-            Description = description,
-            DueDate = dueDate,
-            Status = status
-        };
+        Task newTask = new Task();
+        newTask.Title = title;
+        newTask.Description = description;
+        newTask.DueDate = dueDate;
+        newTask.Status = status;
         task.Add(newTask);
         Console.WriteLine("Added");
     }
@@ -33,8 +31,8 @@ class Program
 {
     void Main()
     {
-        List<Task> myTasks = new List<Task>();
-        myTasks.AddTask("aaa", "aaa", "aaa", "aaa");
+        TaskManager mytasks = new TaskManager();
+        mytasks.AddTask("aaa", "aaa", "aaa", "aaa");
     }
 }
 
