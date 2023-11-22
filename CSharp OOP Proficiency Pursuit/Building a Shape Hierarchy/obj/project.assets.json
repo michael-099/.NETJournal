@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\Chake Palindrome\\Building a Shape Hierarchy\\Building a Shape Hierarchy.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharp OOP Proficiency Pursuit\\Building a Shape Hierarchy\\Building a Shape Hierarchy.csproj",
       "projectName": "Building a Shape Hierarchy",
-      "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\Chake Palindrome\\Building a Shape Hierarchy\\Building a Shape Hierarchy.csproj",
+      "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharp OOP Proficiency Pursuit\\Building a Shape Hierarchy\\Building a Shape Hierarchy.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharpPlayground\\Chake Palindrome\\Building a Shape Hierarchy\\obj\\",
+      "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharp OOP Proficiency Pursuit\\Building a Shape Hierarchy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"

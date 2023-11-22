@@ -1,0 +1,14 @@
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.exe
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.deps.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.runtimeconfig.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\bin\Debug\net7.0\Building a Shape Hierarchy.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\refint\Building a Shape Hierarchy.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\Building a Shape Hierarchy.genruntimeconfig.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Building a Shape Hierarchy\obj\Debug\net7.0\ref\Building a Shape Hierarchy.dll
