@@ -1,6 +1,6 @@
 ﻿using System;
 namespace ShapeHierarchy;
-class Shape
+public class Shape
 {
     private string Name;
     public void setName(string name)
@@ -11,7 +11,7 @@ class Shape
     {
         return Name;
     }
-    double CalculateArea()
+    public virtual double CalculateArea()
     {
         return 0;
 
@@ -31,7 +31,7 @@ public class Circle : Shape
     }
     // double pie = Math.PI;
 
-    public static double CalculateArea(double Radius)
+    public override double CalculateArea()
     {
         double pie = Math.PI;
         double area = pie * (Math.Pow(Radius, 2));
@@ -56,13 +56,13 @@ public class Rectangle : Shape
     private double Height;
     public void setHeight(double height)
     {
-        Height = Height;
+        Height = height;
     }
     public double getHeight()
     {
         return Height;
     }
-    public static double CalculateArea(double Width, double Height)
+    public override double CalculateArea()
     {
         double area = Width * Height;
         return area;
@@ -91,26 +91,41 @@ public class Triangle : Shape
     {
         return Height;
     }
-    public static double CalculateArea(double Base, double Height)
+    public override double CalculateArea()
     {
         double area = (Base * Height) / 2;
         return area;
     }
 }
 
-void PrintShapeArea(Shape shape)
-{
-     shape.calculateArea()
 
-}
 class main
 {
+    static void PrintShapeArea(Shape shape)
+    {
+        Console.WriteLine($"{shape.getName()}   {shape.CalculateArea()}");
+    }
     static void Main(string[] args)
     {
-        Shape shape = new Shape();
-        shape.setName("Circle");
-        Console.WriteLine(shape.getName());
-        Console.WriteLine(Shape.Circle.CalculateArea(3));
+        
+            Circle circle = new Circle();
+            circle.setName("cir");
+            circle.setRadius(3.0);
+            PrintShapeArea(circle);
+
+            Rectangle rectangle = new Rectangle();
+            rectangle.setName("rect");
+            rectangle.setWidth(4.0);
+            rectangle.setHeight(5.0);
+            PrintShapeArea(rectangle);
+
+            Triangle triangle = new Triangle();
+            triangle.setName("tri");
+            triangle.setBase(3.0);
+            triangle.setHeight(4.0);
+            PrintShapeArea(triangle);
+       
+
 
     }
 }
