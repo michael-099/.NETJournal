@@ -1,0 +1,14 @@
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\Library Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\Library Catalog.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\Library Catalog.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\Library Catalog.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\bin\Debug\net7.0\Library Catalog.exe
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\bin\Debug\net7.0\Library Catalog.deps.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\bin\Debug\net7.0\Library Catalog.runtimeconfig.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\bin\Debug\net7.0\Library Catalog.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\bin\Debug\net7.0\Library Catalog.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\Library Catalog.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\refint\Library Catalog.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\Library Catalog.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\Library Catalog.genruntimeconfig.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\ Library Catalog\obj\Debug\net7.0\ref\Library Catalog.dll
