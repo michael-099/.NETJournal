@@ -1,0 +1,14 @@
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\Going Deeper into C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\Going Deeper into C#.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\Going Deeper into C#.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\Going Deeper into C#.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\bin\Debug\net7.0\Going Deeper into C#.exe
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\bin\Debug\net7.0\Going Deeper into C#.deps.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\bin\Debug\net7.0\Going Deeper into C#.runtimeconfig.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\bin\Debug\net7.0\Going Deeper into C#.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\bin\Debug\net7.0\Going Deeper into C#.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\Going Deeper into C#.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\refint\Going Deeper into C#.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\Going Deeper into C#.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\Going Deeper into C#.genruntimeconfig.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\obj\Debug\net7.0\ref\Going Deeper into C#.dll

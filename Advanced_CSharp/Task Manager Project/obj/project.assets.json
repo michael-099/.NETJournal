@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharp OOP Proficiency Pursuit\\Advanced_CSharp\\Going Deeper into C#\\Going Deeper into C#.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\Advanced_CSharp\\Task Manager Project\\Going Deeper into C#.csproj",
       "projectName": "Going Deeper into C#",
-      "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharp OOP Proficiency Pursuit\\Advanced_CSharp\\Going Deeper into C#\\Going Deeper into C#.csproj",
+      "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\Advanced_CSharp\\Task Manager Project\\Going Deeper into C#.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\CSharp OOP Proficiency Pursuit\\Advanced_CSharp\\Going Deeper into C#\\obj\\",
+      "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\Advanced_CSharp\\Task Manager Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"

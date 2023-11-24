@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Going_Deeper_into_C_
+build_property.ProjectDir = C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Advanced_CSharp\Task Manager Project\
