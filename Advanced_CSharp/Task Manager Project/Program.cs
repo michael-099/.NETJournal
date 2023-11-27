@@ -27,7 +27,8 @@ class Task
     {
         foreach (var x in TaskManager)
         {
-            Console.WriteLine($"Name:{x.Name} Discription:{x.Description} isompleted:{x.ISCompleted} Catagory:{x.Catagory}");
+            TaskManager.OrderBy(TaskManager => TaskManager.Catagory.ToString().First());
+            Console.WriteLine($"Name:{x.Name}    Discription:{x.Description} isompleted:{x.ISCompleted} Catagory:{x.Catagory}");
         }
     }
     public Task(string Name, Catagory Catagory, string Description, bool ISCompleted)
