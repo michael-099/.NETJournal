@@ -10,6 +10,6 @@ class Student
 
 }
 class Student<T>{
-    
+
 
 }
