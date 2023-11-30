@@ -3,12 +3,12 @@ namespace pokemon_api;
 [ApiController]
 [Route("api/[controller]")]
 public class pokemonController : ControllerBase{
-    private Pokemon pikachu = new Pokemon();
+    private Pokemon Pikachu = new Pokemon();
 
     [HttpGet]
 
-    public Pokemon pikachu { 
-        return 
+    public ActionResult<Pokemon>GetPokemon(){
+        return BadRequest(Pikachu);
+    }
     }
 
-}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\pokeman_api.props" />
+</Project>

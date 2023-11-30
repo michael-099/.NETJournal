@@ -1,8 +1,11 @@
 namespace pokemon_api;
-public class Pokemon{
-string Avater{get;set;}="Pikachu ";
-string power {get;set;}="shock" ;
-int level {get;set;}=3;
+public class Pokemon
+{
+    public string Id { get; set; }="001";
+    public string Name { get; set; }="Pikachu ";
+    public string Type { get; set; }="";
+    public string Ability { get; set; }="";
+    public int Level { get; set; }=3;
 
 }
- 
+

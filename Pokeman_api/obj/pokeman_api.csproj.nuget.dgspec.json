@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\Pokeman_api\\pokeman_api.csproj": {}
+    "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\Pokeman_api\\pokeman_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\Pokeman_api\\pokeman_api.csproj": {
+    "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\Pokeman_api\\pokeman_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\Pokeman_api\\pokeman_api.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\Pokeman_api\\pokeman_api.csproj",
         "projectName": "pokeman_api",
-        "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\Pokeman_api\\pokeman_api.csproj",
+        "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\Pokeman_api\\pokeman_api.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\Pokeman_api\\obj\\",
+        "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\2016 cods\\.NETJournal\\Pokeman_api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
