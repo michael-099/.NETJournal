@@ -8,22 +8,48 @@ public class pokemonController : ControllerBase
 
     private List<Pokemon> pokemon = new List<Pokemon>
 {
-    new Pokemon(){Id="002",Name="Bulbasaur",Type="Grass",Ability ="Overgrow",Level=3},
-    new Pokemon() {Id="003", Name = "Bulbasaur",Type = "Grass",Ability  = "Overgrow",Level = 3}
+    new Pokemon() {Id="003", Name = "Bulbasaur",Type = "Grass",Ability  = "Overgrow",Level = 3},
+    new Pokemon() {Id="002", Name = "Bulbasaur",Type = "Grass",Ability  = "Overgrow",Level = 2}
+
+
 };
 
 
-[HttpGet]
+    // [HttpGet]
 
-public ActionResult<List<Pokemon>>GetPokemon()
-{
-    return Ok(pokemon);
-}
-[HttpGet("{id}")]
-public ActionResult<Pokemon> GetPokemonById(string id)
-{
-    return Ok(pokemon.Find{pokemon=>pokemon.Id==id });
-}
+    // public ActionResult<List<Pokemon>> GetPokemon()
+    // {
+    //     return Ok(pokemon);
+    // }
+    [HttpGet("{level}")]
+    public ActionResult<Pokemon> GetPokemonById(int level)
+    {
+        var foundPokemon = pokemon.Find(pokemon => pokemon.Level == level);
+        if (foundPokemon == null)
+        {
+            return NotFound();
+
+        }
+        return Ok(foundPokemon);
+    }
+
+    [HttpPost]
+    public ActionResult<List<Pokemon>> AddPokemon(Pokemon newPokemon)
+    {
+        newPokemon=new Pokemon
+        {
+            Id = "004",
+            Name = "Bulbasaur",
+            Type = "Grass",
+            Ability = "Overgrow",
+            // Level = 2
+
+        };
+        pokemon.Add(newPokemon);
+        return Ok(pokemon);
+
+    }
+
 
 }
 

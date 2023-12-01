@@ -5,7 +5,7 @@ public class Pokemon
     public string Name { get; set; }="Pikachu ";
     public string Type { get; set; }="";
     public string Ability { get; set; }="";
-    public int Level { get; set; }=3;
+    public int Level { get; set; }=0;
 
 }
 
