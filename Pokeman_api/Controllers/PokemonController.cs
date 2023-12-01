@@ -1,4 +1,4 @@
-
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
 namespace pokemon_api;
@@ -52,7 +52,7 @@ public class pokemonController : ControllerBase
             Name = "Bulbasaur",
             Type = "Grass",
             Ability = "Overgrow",
-            // Level = 2
+            Level = 2
 
         };
         pokemon.Add(newPokemon);
@@ -71,25 +71,22 @@ public class pokemonController : ControllerBase
         return Ok(pokemon);
 
     }
-    [HttpPatch("{Name}")]
-    public ActionResult<Pokemon> PatchPokemon(string name, [FromBody] Pokemon updatedPokemon)
+[HttpPatch("{name}")]
+public IActionResult<Pokemon> PatchPokemon(string name, [FromBody] JsonPatchDocument<Pokemon> patchDocument)
+{
+    var existingPokemon = pokemon.Find(p => p.Name == name);
+    if (existingPokemon == null)
     {
-        var existingPokemon = pokemon.Find(pokemon => pokemon.Name == name);
-        if (existingPokemon == null)
-        {
-            return NotFound();
-        }
-
-        existingPokemon.Name = updatedPokemon.Name ?? existingPokemon.Name;
-        existingPokemon.Type = updatedPokemon.Type ?? existingPokemon.Type;
-
-        if (!ModelState.IsValid)
-        {
-            return BadRequest(ModelState);
-        }
-        return Ok(existingPokemon);
-
+        return NotFound();
     }
+    patchDocument.ApplyTo(existingPokemon, ModelState);
+    if (!ModelState.IsValid)
+    {
+        return BadRequest(ModelState);
+    }
+    return Ok(existingPokemon);
+}
+
 
    [HttpPut]
 public ActionResult<Pokemon> ModifyPokemon(Pokemon updatedPokemon)
