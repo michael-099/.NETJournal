@@ -1,4 +1,6 @@
+
 using Microsoft.AspNetCore.Mvc;
+
 namespace pokemon_api;
 [ApiController]
 [Route("api/[controller]")]
@@ -17,18 +19,18 @@ public class pokemonController : ControllerBase
     new Pokemon { Id = "8", Name = "Machop", Type = "Fighting", Level = 5 },
     new Pokemon { Id = "9", Name = "Gastly", Type = "Ghost/Poison", Level = 5 },
     new Pokemon { Id = "10", Name = "Onix", Type = "Rock/Ground", Level = 5 },
-    // Add more Pokemon as needed
+
 
 
 };
 
 
-    // [HttpGet]
+    [HttpGet]
 
-    // public ActionResult<List<Pokemon>> GetPokemon()
-    // {
-    //     return Ok(pokemon);
-    // }
+    public ActionResult<List<Pokemon>> GetPokemon()
+    {
+        return Ok(pokemon);
+    }
     [HttpGet("{level}")]
     public ActionResult<Pokemon> GetPokemonById(int level)
     {
@@ -69,7 +71,46 @@ public class pokemonController : ControllerBase
         return Ok(pokemon);
 
     }
+    [HttpPatch("{Name}")]
+    public ActionResult<Pokemon> PatchPokemon(string name, [FromBody] Pokemon updatedPokemon)
+    {
+        var existingPokemon = pokemon.Find(pokemon => pokemon.Name == name);
+        if (existingPokemon == null)
+        {
+            return NotFound();
+        }
+
+        existingPokemon.Name = updatedPokemon.Name ?? existingPokemon.Name;
+        existingPokemon.Type = updatedPokemon.Type ?? existingPokemon.Type;
+
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        return Ok(existingPokemon);
+
+    }
+
+   [HttpPut]
+public ActionResult<Pokemon> ModifyPokemon(Pokemon updatedPokemon)
+{
+    var existingPokemon = pokemon.FirstOrDefault(p => p.Id == updatedPokemon.Id);
+
+    if (existingPokemon == null)
+    {
+        return NotFound();
+    }
+    existingPokemon.Name = updatedPokemon.Name;
+    existingPokemon.Type = updatedPokemon.Type;
+    existingPokemon.Level = updatedPokemon.Level;
+
+    return Ok(existingPokemon);
+}
 
 
 }
+
+
+
+
 
