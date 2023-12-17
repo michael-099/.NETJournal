@@ -1,0 +1,4 @@
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Contact Management Utility\obj\Debug\net7.0\Contact Management Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Contact Management Utility\obj\Debug\net7.0\Contact Management Utility.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Contact Management Utility\obj\Debug\net7.0\Contact Management Utility.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\CSharp OOP Proficiency Pursuit\Contact Management Utility\obj\Debug\net7.0\Contact Management Utility.csproj.CoreCompileInputs.cache
