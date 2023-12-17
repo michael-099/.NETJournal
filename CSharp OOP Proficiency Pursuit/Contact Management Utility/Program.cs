@@ -7,26 +7,31 @@ public class Contact
 
     public string firstName { get; set; }
     public string lastName { get; set; }
-    public string poneNumber { get; set; }
-    public Contact(string firstName, string lastName, string poneNumber)
+    public string phoneNumber { get; set; }
+    public Contact(string firstName, string lastName, string phoneNumber)
     {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.poneNumber = poneNumber;
+        this.phoneNumber = phoneNumber;
 
     }
+    public override string ToString()
+    {
+        return $"firstName:{firstName}\nlastName:{lastName}\nphoneNumber:{phoneNumber}\n\n";
+    }
+
 }
 public class ContactManager
 {
-    public List<Contact> contacts = new List<Contact>();
+    public static  List<Contact> contacts = new List<Contact>();
 
-    public void AddContact(string firstName, string lastName, string phoneNumber)
+    public static void AddContact(string firstName, string lastName, string phoneNumber)
     {
-        Contact newcontact = new Contact(firstName, lastName, phoneNumber);
-        contacts.Add(newcontact);
+        ;
+        contacts.Add( new Contact(firstName, lastName, phoneNumber));
 
     }
-    public void Display()
+    public static void Display()
     {
         if (contacts.Count > 0)
         {
@@ -38,14 +43,16 @@ public class ContactManager
 
 
 
+
     }
-    public void Search(string firstName)
+    public static void Search(string firstName)
     {
-        for (int i=0; i < contacts.Count; i++)
+        for (int i = 0; i < contacts.Count; i++)
         {
             if (contacts[i].firstName == firstName)
             {
                 Console.WriteLine(contacts[i]);
+
             }
         }
 
@@ -57,12 +64,23 @@ public class ContactManager
 class Program
 {
     public static void Main(string[] args)
-    { 
-        ContactManager x=new ContactManager();
-        x.AddContact("x" ,"xx" ,"111");
-        x.Display();
-        x.Search("x");
-        
+    {
+        ContactManager.AddContact("John", "Doe", "1234567890");
+        ContactManager.AddContact("Jane", "Smith", "9876543210");
+        ContactManager.AddContact("Alice", "Johnson", "5555555555");
+        ContactManager.AddContact("Michael", "Brown", "1111111111");
+        ContactManager.AddContact("Emily", "Davis", "2222222222");
+        ContactManager.AddContact("David", "Wilson", "3333333333");
+        ContactManager.AddContact("Sarah", "Miller", "4444444444");
+        ContactManager.AddContact("Robert", "Anderson", "5555555555");
+        ContactManager.AddContact( "Olivia", "Taylor", "6666666666");
+        ContactManager.AddContact("William", "Thomas", "7777777777");
+
+
+        ContactManager.Search("Olivia");
+        ContactManager.Display();
+       
+
 
 
     }
