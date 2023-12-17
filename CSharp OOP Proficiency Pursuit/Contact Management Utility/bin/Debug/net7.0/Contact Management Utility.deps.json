@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Contact Management Utility/1.0.0": {
+        "runtime": {
+          "Contact Management Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contact Management Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

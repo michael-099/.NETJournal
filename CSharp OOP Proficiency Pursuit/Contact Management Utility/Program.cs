@@ -20,15 +20,15 @@ public class ContactManager
 {
     public List<Contact> contacts = new List<Contact>();
 
-    public void AddContact(string firstName, string lastName, string poneNumber)
+    public void AddContact(string firstName, string lastName, string phoneNumber)
     {
-        Contact newcontact = new Contact(firstName, lastName, poneNumber);
+        Contact newcontact = new Contact(firstName, lastName, phoneNumber);
         contacts.Add(newcontact);
 
     }
     public void Display()
     {
-        if (contact.Count > 0)
+        if (contacts.Count > 0)
         {
             foreach (Contact contact in contacts)
             {
@@ -41,9 +41,9 @@ public class ContactManager
     }
     public void Search(string firstName)
     {
-        for (int i; i < contacts.Count; i++)
+        for (int i=0; i < contacts.Count; i++)
         {
-            if (contact[i].firstName == firstName)
+            if (contacts[i].firstName == firstName)
             {
                 Console.WriteLine(contacts[i]);
             }
@@ -57,7 +57,12 @@ public class ContactManager
 class Program
 {
     public static void Main(string[] args)
-    {
+    { 
+        ContactManager x=new ContactManager();
+        x.AddContact("x" ,"xx" ,"111");
+        x.Display();
+        x.Search("x");
+        
 
 
     }
