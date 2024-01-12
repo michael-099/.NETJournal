@@ -71,38 +71,38 @@ public class pokemonController : ControllerBase
         return Ok(pokemon);
 
     }
-[HttpPatch("{name}")]
-public IActionResult<Pokemon> PatchPokemon(string name, [FromBody] JsonPatchDocument<Pokemon> patchDocument)
-{
-    var existingPokemon = pokemon.Find(p => p.Name == name);
-    if (existingPokemon == null)
+    [HttpPatch("{name}")]
+    public IActionResult<Pokemon> PatchPokemon(string name, [FromBody] JsonPatchDocument<Pokemon> patchDocument)
     {
-        return NotFound();
+        var existingPokemon = pokemon.Find(p => p.Name == name);
+        if (existingPokemon == null)
+        {
+            return NotFound();
+        }
+        patchDocument.ApplyTo(existingPokemon, ModelState);
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        return Ok(existingPokemon);
     }
-    patchDocument.ApplyTo(existingPokemon, ModelState);
-    if (!ModelState.IsValid)
+
+
+    [HttpPut]
+    public ActionResult<Pokemon> ModifyPokemon(Pokemon updatedPokemon)
     {
-        return BadRequest(ModelState);
+        var existingPokemon = pokemon.FirstOrDefault(p => p.Id == updatedPokemon.Id);
+
+        if (existingPokemon == null)
+        {
+            return NotFound();
+        }
+        existingPokemon.Name = updatedPokemon.Name;
+        existingPokemon.Type = updatedPokemon.Type;
+        existingPokemon.Level = updatedPokemon.Level;
+
+        return Ok(existingPokemon);
     }
-    return Ok(existingPokemon);
-}
-
-
-   [HttpPut]
-public ActionResult<Pokemon> ModifyPokemon(Pokemon updatedPokemon)
-{
-    var existingPokemon = pokemon.FirstOrDefault(p => p.Id == updatedPokemon.Id);
-
-    if (existingPokemon == null)
-    {
-        return NotFound();
-    }
-    existingPokemon.Name = updatedPokemon.Name;
-    existingPokemon.Type = updatedPokemon.Type;
-    existingPokemon.Level = updatedPokemon.Level;
-
-    return Ok(existingPokemon);
-}
 
 
 }
