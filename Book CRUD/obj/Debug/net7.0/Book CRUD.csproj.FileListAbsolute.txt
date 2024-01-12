@@ -1,0 +1,33 @@
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\appsettings.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Book CRUD.exe
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Book CRUD.deps.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Book CRUD.runtimeconfig.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Book CRUD.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Book CRUD.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\staticwebassets\msbuild.Book CRUD.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\staticwebassets\msbuild.build.Book CRUD.props
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Book CRUD.props
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Book CRUD.props
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\scopedcss\bundle\Book CRUD.styles.css
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.csproj.CopyComplete
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\refint\Book CRUD.dll
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.pdb
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\Book CRUD.genruntimeconfig.cache
+C:\Users\micha\OneDrive\Documents\2016 cods\.NETJournal\Book CRUD\obj\Debug\net7.0\ref\Book CRUD.dll
