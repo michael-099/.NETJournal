@@ -2,7 +2,7 @@
 using System;
 namespace book;
 
-class Books
+public class Books
 {
     public string Id { get; set; }
     public string Title { get; set; }

@@ -76,6 +76,38 @@ public class BookController : ControllerBase
 
 
     }
+
+
+    [HttpPatch("{id}")]
+    public IActionResult patchbook(string id, [FromBody]string title)
+    {
+
+        for (int i = 0; i < books.Count; i++)
+        {
+            if (id == books[i].Id)
+            {
+                books[i].Title = title;
+                return Ok(books);
+            }
+        }
+        return NotFound();
+
+    }
+    [HttpPut("{id}")]
+    public IActionResult Putbook(string id, [FromBody] Books b)
+    {
+        for (int i = 0; i < books.Count; i++)
+        {
+            if (books[i].Id == id)
+            {
+                books[i] = b;
+                return Ok(books);
+            }
+
+
+        }
+        return NotFound();
+    }
 }
 
 
