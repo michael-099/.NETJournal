@@ -50,11 +50,34 @@ public class BookController : ControllerBase
 
     }
     [HttpPost]
-    public IActionResult postbook(string Id ,string Title ,string Author,string Genre){
+    public IActionResult postbook(string Id, string Title, string Author, string Genre)
+    {
         books.Add(new Books { Id = Id, Title = Title, Author = Author, Genre = Genre });
         return Ok(books);
-    }d
     }
+    [HttpDelete("{id}")]
+    public IActionResult deletebook(string id)
+    {
+        Books toBeDeleted = (Books?)null;
+        for (int i = 0; i < books.Count(); i++)
+        {
+
+            if (books[i].Id == id)
+            {
+                toBeDeleted = books[i];
+                books.Remove(toBeDeleted);
+                return Ok(books);
+            }
+
+
+
+        }
+        return NotFound();
+
+
+    }
+}
+
 
 
 
