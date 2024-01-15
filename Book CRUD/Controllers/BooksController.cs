@@ -21,6 +21,7 @@ public class BookController : ControllerBase
     new Books { Id = "009", Title = "The Lord of the Rings", Author = "J.R.R. Tolkien", Genre = "Fantasy" },
     new Books { Id = "010", Title = "The Harry Potter series", Author = "J.K. Rowling", Genre = "Fantasy" },
     new Books { Id = "011", Title = "The Chronicles of Narnia", Author = "C.S. Lewis", Genre = "Fantasy" },
+    
 };
 
 
